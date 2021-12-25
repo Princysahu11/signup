@@ -1,0 +1,64 @@
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(pic2.jpg) ;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    margin: auto;
+    width: 360px;
+    padding: 10% 0 0;
+}
+
+.form{
+    text-align: center;
+    max-width: 360px;
+    position: relative;
+    z-index: 1;
+    background-color:rgba(7,40,195,0.8);
+    margin: auto 0;
+    padding: 45px;
+}
+
+.form input{
+    font-family: "Roboto",sans-serif;
+    outline: 1;
+    margin: 0 0 16px;
+    padding: 15px;
+    font-size: 15px;
+    box-sizing: border-box;
+    background: #f2f2f2;
+    width:100%;
+
+}
+
+.form  button{
+cursor: pointer;
+text-align: center;
+padding:15px ;
+font-family: "Roboto",sans-serif;
+text-transform: uppercase;
+outline: 1;
+background: #4CAF50;
+width: 100%;
+color: #ffff;
+font-size: 15px;
+
+}
+
+.form button:hover , .form button:active{
+    background: #43A047;
+}
+
+.form .message{
+    font-size: 15px;
+    color: rgb(172, 189, 204);
+    margin: 15px 0 0 ;
+}
+.form .message a{
+    text-decoration: none;
+    color:#4CAF50
+}
+.form .register-form{
+    display: none;
+}
